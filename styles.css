@@ -76,7 +76,7 @@ address {
 
 .slides img {
   width: 320px; /* Set a fixed width for the images */
-  height: 460pix; /* Maintain aspect ratio */
+  height: 460px; /* Maintain aspect ratio */
   display: block; /* Ensure each image appears as a block */
   margin: 10px auto; /* Add margin for spacing between images and center them */
 }
