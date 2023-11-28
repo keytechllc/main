@@ -64,7 +64,7 @@ address {
 
 /* Slideshow Styles */
 .slideshow-container {
-  max-width: 350px; /* Set the maximum width for the slideshow container */
+  max-width: 400px; /* Set the maximum width for the slideshow container */
   margin: auto;
   overflow: hidden; /* Hide overflow to prevent larger images from overflowing */
   text-align: center; /* Center the images horizontally */
