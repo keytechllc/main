@@ -64,21 +64,22 @@ address {
 
 /* Slideshow Styles */
 .slideshow-container {
-  max-width: 150px; /* Set the maximum width for the slideshow container */
+  max-width: 350px; /* Set the maximum width for the slideshow container */
   margin: auto;
   overflow: hidden; /* Hide overflow to prevent larger images from overflowing */
+  text-align: center; /* Center the images horizontally */
 }
 
 .slides {
-  display: none;
+  display: inline-block; /* Display slides in-line */
 }
 
 .slides img {
-  width: 120px; /* Set a fixed width for the images */
-  height: 180px; /* Set a fixed height for the images */
-  object-fit: cover; /* Maintain aspect ratio while covering the entire space */
+  width: 320px; /* Set a fixed width for the images */
+  height: 460pix; /* Maintain aspect ratio */
+  display: block; /* Ensure each image appears as a block */
+  margin: 10px auto; /* Add margin for spacing between images and center them */
 }
-
 /* Additional styles */
 a {
   color: #ff0000; /* Red color for links */
