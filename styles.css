@@ -64,17 +64,19 @@ address {
 
 /* Slideshow Styles */
 .slideshow-container {
-  max-width: 1000px;
-  position: relative;
+  max-width: 150px; /* Set the maximum width for the slideshow container */
   margin: auto;
+  overflow: hidden; /* Hide overflow to prevent larger images from overflowing */
 }
 
 .slides {
   display: none;
 }
 
-img {
-  width: 100%;
+.slides img {
+  width: 120px; /* Set a fixed width for the images */
+  height: 180px; /* Set a fixed height for the images */
+  object-fit: cover; /* Maintain aspect ratio while covering the entire space */
 }
 
 /* Additional styles */
