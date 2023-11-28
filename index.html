@@ -5,23 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>KeyTech Locksmith Mobile Business</title>
   <link rel="stylesheet" href="styles.css">
-  <style>
-    /* Your existing CSS */
-    /* Slideshow Styles */
-    .slideshow-container {
-      max-width: 1000px;
-      position: relative;
-      margin: auto;
-    }
-    
-    .slides {
-      display: none;
-    }
-    
-    img {
-      width: 100%;
-    }
-  </style>
 </head>
 <body>
   <header>
@@ -79,29 +62,6 @@
     <p>&copy; 2023 Keytech Locksmith Mobile Business</p>
   </footer>
 
-  <script>
-    let slideIndex = 0;
-
-    function showSlides() {
-      let slides = document.getElementsByClassName("slides");
-
-      for (let i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-      }
-
-      slideIndex++;
-
-      if (slideIndex > slides.length) {
-        slideIndex = 1;
-      }
-
-      slides[slideIndex - 1].style.display = "block";
-      setTimeout(showSlides, 2000); // Change image every 2 seconds
-    }
-
-    window.onload = function () {
-      showSlides();
-    };
-  </script>
+  <script src="script.js"></script>
 </body>
 </html>
