@@ -1,15 +1,20 @@
-/* General Styles */
-body {
-  font-family: Arial, sans-serif;
+/* Reset default styles */
+body, h1, h2, h3, h4, h5, h6, ul, ol, li, p, figure, figcaption, blockquote, dl, dd {
   margin: 0;
   padding: 0;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: Arial, sans-serif;
   line-height: 1.6;
 }
 
 header {
-  background-color: #333;
-  color: #fff;
+  background-color: #111;
   padding: 20px;
+  color: #fff;
 }
 
 nav ul {
@@ -36,28 +41,25 @@ section {
 }
 
 footer {
-  background-color: #333;
+  background-color: #111;
   color: #fff;
   text-align: center;
   padding: 10px 0;
 }
 
-/* Specific Styles */
-h1 {
-  margin: 0;
-}
-
-h2 {
-  color: #333;
+h1, h2 {
+  color: #fff;
 }
 
 ul {
   list-style-type: disc;
   margin-left: 20px;
+  color: #fff;
 }
 
 address {
   font-style: normal;
+  color: #fff;
 }
 
 /* Slideshow Styles */
@@ -73,4 +75,13 @@ address {
 
 img {
   width: 100%;
+}
+
+/* Additional styles */
+a {
+  color: #ff0000; /* Red color for links */
+}
+
+a:hover {
+  text-decoration: underline;
 }
